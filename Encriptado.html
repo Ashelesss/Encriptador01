@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap" rel="stylesheet">
+<body>
+        
+    <header>
+        <h1>Encriptador de Texto</h1>
+    </header>
+    
+    <main class="margen">
+        
+        <section class="izquierdo">
+            <textarea name="area-texto" class="area-texto" cols="30" rows="10" placeholder="Ingrese el texto aqui..." ></textarea>
+             
+            <div class="textoDeSolo">
+                <h6>Solo letras minusculas y sin acentos</h6>
+            </div>
+            
+            <div class="botones">   
+                <button class="boton-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="boton-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+            
+        </section>
+
+        <section class="derecho">
+            <textarea name="area-texto2" class="area-texto2" placeholder="Ingrese el texto que quiera encriptar o desencriptar"></textarea>
+        
+            <div>
+               <button class="copiar" onclick="copiar()">Copiar</button> 
+            </div>
+            
+        </section>
+
+    </main>
+    <footer>
+        <h2>Contacto</h2>
+        <ul>
+            <li>
+                <a href="https://github.com/Ashelesss" target="_blank">
+                    <span class="tooltip">Github </span>
+                    <span><i class="fab fa-github"></i></span>
+                </a>
+            </li>
+                
+            <li> 
+                <a href="https://www.linkedin.com/in/albeiro-alexander-0986b8258/" target="_blank">
+                    <span class="tooltip">linkedin</span>
+                    <span><i class="fab fa-linkedin"></i></span>  
+                </a>
+            </li>
+            <li> 
+                <a href="https://www.instagram.com/albeiroalexander/" target="_blank">
+                    <span class="tooltip">Instagram</span>
+                    <span><i class="fab fa-instagram"></i></span>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    
+</body>
+    <script src="Encriptador.js"></script>
+
+</html>
